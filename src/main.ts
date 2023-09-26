@@ -5,7 +5,7 @@ import { getFirstImage } from './image-search';
 const app = express();
 const port = 3000;
 
-const allowedOrigins = ['API_URL'];
+const allowedOrigins = ['FE_URL'];
 
 const corsOptions = {
   origin: function (origin: any, callback: any) {
